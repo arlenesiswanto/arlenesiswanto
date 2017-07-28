@@ -462,14 +462,15 @@ footer {
 }
 
 .card {
-  padding: 25px; 
+  padding: 25px;
   background-color: transparent;
-  transition: background-color 0.2s ease;
-  transition: box-shadow 0.2s ease;
+  transition: background-color 0.4s ease;
+  transition: box-shadow 0.4s ease;
 }
 
 .card:hover {
   background-color: #FFF;
   box-shadow: 2px 2px 10px #CCC;
   transition: background-color 1s ease;
+  cursor:pointer;
 }
